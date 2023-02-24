@@ -1,6 +1,7 @@
 import tkinter as tk
 import subprocess
 
+
 class Menu:
     def __init__(self, master):
         self.master = master
@@ -14,7 +15,7 @@ class Menu:
         self.button3.pack(pady=4)
         self.button4.pack(pady=4)
         self.frame.pack()
-        #trial line
+        # trial line
 
     def run_script1(self):
         subprocess.call(["python", "notepad.py"])
@@ -28,9 +29,12 @@ class Menu:
     def run_script4(self):
         subprocess.call(["python", "work-timer.py"])
 
+
 root = tk.Tk()
 root.title("Home")
 root.geometry("250x140")
 app = Menu(root)
 root.mainloop()
-#done
+# done
+
+# heee haaa
