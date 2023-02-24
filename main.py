@@ -14,6 +14,7 @@ class Menu:
         self.button3.pack(pady=4)
         self.button4.pack(pady=4)
         self.frame.pack()
+        #trial line
 
     def run_script1(self):
         subprocess.call(["python", "notepad.py"])
@@ -32,3 +33,4 @@ root.title("Home")
 root.geometry("250x140")
 app = Menu(root)
 root.mainloop()
+#done
